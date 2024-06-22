@@ -1,0 +1,127 @@
+#app {
+  // 主体区域
+  .main-container {
+    min-height: 100%;
+    transition: 0.4s;
+    overflow: auto;
+  } // 侧边栏
+  .sidebar-container {
+    transition:  0.2s;
+    width: 165px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    background:#2DA3FB;
+    a {
+      display: inline-block;
+      width: 100%;
+    }
+    .svg-icon {
+      margin-right: 16px;
+    }
+    .el-menu {
+      border: none;
+    }
+    .el-menu-item{
+      color: #fff;
+    }
+    .el-submenu__title{
+      color: #fff;
+    }
+    .el-submenu__title i{
+      color: #fff;
+    }
+    .el-submenu__title:focus, .el-submenu__title:hover{
+      background:rgba(64, 158, 255,1) !important;
+    }
+
+  }
+  .hideSidebar {
+    .sidebar-container,.sidebar-container .el-menu {
+       overflow: inherit;
+    }
+    .main-container {
+      margin-left: 36px;
+      transition: .2s;
+    }
+  }
+  .hideSidebar {
+    .submenu-title-noDropdown {
+      padding-left: 14px!important;
+      position: relative;
+      span {
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        visibility: hidden;
+        transition: opacity .3s cubic-bezier(.55, 0, .1, 1);
+        display: inline-block;
+      }
+      &:hover {
+        span {
+          display: block;
+          border-radius: 3px;
+          z-index: 1002;
+          width: 140px;
+          height: 56px;
+          visibility: visible;
+          position: absolute;
+          right: -145px;
+          text-align: left;
+          text-indent: 20px;
+          top: 0px;
+          background-color: $subMenuBg!important;
+          opacity: 1;
+        }
+      }
+    }
+    .el-submenu {
+      &>.el-submenu__title {
+        padding-left: 12px!important;
+        &>span {
+          display: none;
+        }
+        .el-submenu__icon-arrow {
+          display: none;
+        }
+      }
+      .nest-menu {
+        .el-submenu__icon-arrow {
+          display: block!important;
+        }
+        span {
+          display: inline-block!important;
+        }
+      }
+    }
+  }
+  .nest-menu .el-submenu>.el-submenu__title,
+  .el-submenu .el-menu-item {
+   // min-width: 180px!important;
+    &:hover {
+      //background:rgba(64, 158, 255,0.8) !important;
+    }
+  }
+  .el-menu--collapse .el-menu .el-submenu{
+    min-width: 180px!important;
+  }
+}
+.el-menu--popup{
+  padding:0;
+}
+.el-menu--popup-right-start{
+  background: #1276C3;
+  .el-menu--popup{
+    padding: 0;
+  }
+  span{
+    color: #fff;
+  }
+  .el-menu-item:focus, .el-menu-item:hover{
+    background: #2DA3FB;
+  }
+}
+#app .nest-menu .el-submenu > .el-submenu__title, #app .el-submenu .el-menu-item{background: rgba(64, 158, 255, 0.8)}

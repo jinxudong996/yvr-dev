@@ -1,0 +1,200 @@
+@import './element-ui.scss';
+@import './mixin.scss';
+@import './variables.scss';
+@import './sidebar.scss';
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+*:focus{
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//vue router transition css
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .2s ease
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+//main-container全局样式
+.app-main{
+  min-height: 100%
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.el-button span{
+  margin-left:0px;
+}
+.wrap-table{
+  margin: 0px 20px 0px 20px;
+  padding:20px 0px;
+  box-sizing: border-box;
+}
+ul li{
+  list-style: none;
+}
+
+.el-select-dropdown__list{
+  padding: 0;
+}
+.w250{
+  max-width: 250px !important;
+}
+.pull-right{
+  float: right;
+}
+.spanlabel{
+  text-align: right;
+  vertical-align: middle;
+  float: left;
+  font-size: 14px;
+  color: #48576a;
+  line-height: 1;
+  padding: 11px 12px 11px 0;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+.route-div{
+  margin:35px;
+  border:1px solid #d4dde2;
+  padding:0px 0px 20px 0px;
+}
+.route-div .header{
+  background: #ECEFF1;
+  height: 50px;
+  line-height: 50px;
+  padding:0 20px;
+}
+.route-div .header .el-button{
+  margin-top: 7px;
+  padding: 8px 15px;
+}
+.route-div .el-row{
+  padding:10px 0px;
+  margin:10px;
+  border-bottom: 1px dashed #ccc;
+}
+.product-menu{
+  position: relative;
+}
+.route-div .dialog-footer{
+  text-align: center;
+  margin-left: -200px;
+}
+.product-menu .page-div{
+  margin: 20px auto;
+}
+.changebgColor{
+  background-color: #188AE2;
+}
+.bg-hovers{
+  background-color: #1276C3 !important;
+}
+.changecolor{
+  color: #FFFFFF !important;
+}
+.el-checkbox+.el-checkbox{margin-left:0px;padding-right:15px;}
+.el-checkbox{margin-left:0px;padding-right:15px;}
+table tr .el-checkbox{display:block;}
+.el-radio+.el-radio{margin-left:0px;padding-right:15px;}
+.el-radio{margin-left:0px;padding-right:15px;line-height:36px;}
+.el-popover{min-width:80px;background-color:#f1f1f1;}
+.el-radio{margin-left:0px;padding-right:15px;line-height:36px;}
+.el-popover{min-width:80px;background-color:#f1f1f1;}
+.mg-lr-20{margin:0 20px;}
+.mg-20-auto{margin:20px auto;}
+.pd-bt{padding:10px 30px;}
+.pd-lr30{padding-left:30px;padding-right: 30px}
+.el-menu-item i{color:#fff}
+.el-menu-item:focus, .el-menu-item:hover{
+  background:#1276C3
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner{width: 100%;}
+.el-select{width: 100%;}
+.user-health .el-checkbox{display: block;margin:15px 10px 10px 0px;}
+.user-health  .el-checkbox__input{float: right;position: absolute;left: 0px;margin-right: 15px;}
+.user-health  .el-checkbox__label{padding-left: 25px;}
+.el-menu-item:focus, .el-menu-item:hover{  background:#1276C3}
+.el-date-editor .el-range-separator {padding: 0;}
+.pull-left-50{float: left;width: 50%}
+.pull-right-50{float: right;width: 50%}
+.nomalColor{color: #409EFF}
+.dialog-footer{text-align: right;}
+.el-table th, .el-table  .higtLight{background-color: #F5F7FB !important;}
+.user-health .el-checkbox, .el-checkbox__input{white-space:normal;}
+.user-health .el-checkbox__label{padding-right: 15px;font-size: 16px;}
+.user-move .el-dialog__body{font-size: 16px;}
+.pagination-fixed{position: static;bottom: 0px;left: 20px;height: 30px;}
+.moreSearch.active{transition: all 1.5s; transform: translateX(20px);}
+.scheduleTemp .el-tabs__content{position: static}
+.dicManage .el-tabs__content{position: static}
+.navbar  .el-badge__content.is-fixed.is-dot{right: 12px}
+.participant .el-tabs__header{margin-bottom: 0px;}
+.participant .el-dialog__body{padding-top:15px;}
+.el-input.is-disabled .el-input__inner{color: #333}
+.el-form-item__error{color: orange}
+.router-link-active li{background:#1276C3 !important;}
+.el-submenu__title:hover{background-color:rgba(64, 158, 255,0.8) !important;}
+.el-submenu__title i{color: #fff;}
+.el-cascader{display: block}
+.el-button--text{padding:0 0px;}
+.el-radio-button:focus:not(.is-focus):not(:active):not(.is-disabled){
+  box-shadow: none;
+}
+@media screen and (max-width: 1000px) {
+
+}
