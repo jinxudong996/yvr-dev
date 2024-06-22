@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'syht';
-  src: url("../font/HarmonyOS_Sans_Regular.ttf");
+  src: url("../fonts/HarmonyOS_Sans_Regular.ttf");
 }
 
 @font-face {
   font-family: 'syhtBold';
-  src: url("../font/HarmonyOS_Sans_Bold.ttf");
+  src: url("../fonts/HarmonyOS_Sans_Bold.ttf");
 }
 
 div {

@@ -1,15 +1,15 @@
 <template>
 	<div>
 		<headertop></headertop>
-		<div class="allNyBan" style="background-image: url(/static/images/dev.jpg);">
-			<img class="img100" src="/static/images/dev.jpg" alt="" />
+		<div class="allNyBan">
+			<img class="img100" src="../../static/images/dev.jpg" alt="" />
 			<div class="allNyBanPos">
 				<div class="f52 bolder colorfff textCenter allNyBanPosTit_1 wow fadeInUp">Become a Play For Dream Developer
 				</div>
 				<div class="f24 colorfff textCenter wow fadeInUp allNyBanPosTit_2">Get ready to design and build an entirely new
 					universe of spatial computing era.</div>
 				<div class="allNyBanPos_But wow fadeInUp">
-					<div class="allBtn addBk"><a href="javascript:void(0);">Play Now<span>&nbsp;</span></a></div>
+					<div class="allBtn addBk" @click="joinus()"><a href="javascript:void(0);">Play Now<span>&nbsp;</span></a></div>
 				</div>
 			</div>
 		</div>
@@ -17,14 +17,14 @@
 			<div class="w1600 kfzConSyZc">
 				<div class="kfzConSyZcLeft">
 					<div class="kfzConSyZcMk wow fadeInUp">
-						<img class="img100" src="/static/images/store/img4.png" alt="" />
+						<img class="img100" src="../../static/images/store/img4.png" alt="" />
 						<div class="kfzConSyZcMkPos">
-							<div class="kfzConSyZcMkPos_1"><img src="/static/images/store/ico13.png" alt="" /></div>
+							<div class="kfzConSyZcMkPos_1"><img src="../../static/images/store/ico13.png" alt="" /></div>
 							<div class="f38 bolder kfzConSyZcMkPos_2">XR SDK</div>
 							<div class="f20 kfzConSyZcMkPos_3">Supports mainstream development engines and standard developed XR apps
 							</div>
 							<div class="kfzConSyZcMkPos_4">
-								<div class="allBtn addBk"><a href="javascript:void(0);"> Download Now<span>&nbsp;</span></a></div>
+								<div class="allBtn addBk" @click="joinus()"><a href="javascript:void(0);"> Download Now<span>&nbsp;</span></a></div>
 							</div>
 						</div>
 					</div>
@@ -32,17 +32,17 @@
 				<div class="kfzConSyZcRight">
 					<div class="kfzConSyZcRightMk">
 						<div class="kfzConSyZcMk wow fadeInUp">
-							<img class="img100" src="/static/images/store/img5.png" alt="" />
+							<img class="img100" src="../../static/images/store/img5.png" alt="" />
 							<div class="kfzConSyZcMkPos">
-								<div class="kfzConSyZcMkPos_1"><img src="/static/images/store/ico14.png" alt="" /></div>
+								<div class="kfzConSyZcMkPos_1"><img src="../../static/images/store/ico14.png" alt="" /></div>
 								<div class="f38 bolder kfzConSyZcMkPos_2">App Distribution</div>
 								<div class="f20 kfzConSyZcMkPos_3">Upload and distribute your apps and games</div>
 							</div>
 						</div>
 						<div class="kfzConSyZcMk wow fadeInUp">
-							<img class="img100" src="/static/images/store/img6.png" alt="" />
+							<img class="img100" src="../../static/images/store/img6.png" alt="" />
 							<div class="kfzConSyZcMkPos">
-								<div class="kfzConSyZcMkPos_1"><img src="/static/images/store/ico15.png" alt="" /></div>
+								<div class="kfzConSyZcMkPos_1"><img src="../../static/images/store/ico15.png" alt="" /></div>
 								<div class="f38 bolder kfzConSyZcMkPos_2">Revenue</div>
 								<div class="f20 kfzConSyZcMkPos_3">Generate revenue through app sales and in-app purchases</div>
 							</div>
@@ -50,17 +50,17 @@
 					</div>
 					<div class="kfzConSyZcRightMk kfzConSyZcRightMk_2">
 						<div class="kfzConSyZcMk wow fadeInUp">
-							<img class="img100" src="/static/images/store/img7.png" alt="" />
+							<img class="img100" src="../../static/images/store/img7.png" alt="" />
 							<div class="kfzConSyZcMkPos">
-								<div class="kfzConSyZcMkPos_1"><img src="/static/images/store/ico16.png" alt="" /></div>
+								<div class="kfzConSyZcMkPos_1"><img src="../../static/images/store/ico16.png" alt="" /></div>
 								<div class="f38 bolder kfzConSyZcMkPos_2">Marketing & Operations</div>
 								<div class="f20 kfzConSyZcMkPos_3">View key performance data of your apps and reach more players</div>
 							</div>
 						</div>
 						<div class="kfzConSyZcMk wow fadeInUp">
-							<img class="img100" src="/static/images/store/img8.png" alt="" />
+							<img class="img100" src="../../static/images/store/img8.png" alt="" />
 							<div class="kfzConSyZcMkPos">
-								<div class="kfzConSyZcMkPos_1"><img src="/static/images/store/ico17.png" alt="" /></div>
+								<div class="kfzConSyZcMkPos_1"><img src="../../static/images/store/ico17.png" alt="" /></div>
 								<div class="f38 bolder kfzConSyZcMkPos_2">Tech Support</div>
 								<div class="f20 kfzConSyZcMkPos_3"> Quick responsed technical support with localized services</div>
 							</div>
@@ -73,7 +73,7 @@
 				<div class="swiper wcmxDep yjTxSwiper wow fadeInUp">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<img class="img100" src="/static/images/store/bj5.jpg" alt="" />
+							<img class="img100" src="../../static/images/store/bj5.jpg" alt="" />
 							<div class="yjTxSwiperCon">
 								<div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
 									<div class="f52 colorfff bolder yjTxSwiper_1">YVR 2 <br>
@@ -88,7 +88,7 @@
 							</div>
 						</div>
 						<div class="swiper-slide">
-							<img class="img100" src="/static/images/store/bj5.jpg" alt="" />
+							<img class="img100" src="../../static/images/store/bj5.jpg" alt="" />
 							<div class="yjTxSwiperCon">
 								<div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
 									<div class="f52 colorfff bolder yjTxSwiper_1">YVR 2 <br>
@@ -103,7 +103,7 @@
 							</div>
 						</div>
 						<div class="swiper-slide">
-							<img class="img100" src="/static/images/store/bj5.jpg" alt="" />
+							<img class="img100" src="../../static/images/store/bj5.jpg" alt="" />
 							<div class="yjTxSwiperCon">
 								<div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s">
 									<div class="f52 colorfff bolder yjTxSwiper_1">YVR 2 <br>
@@ -138,7 +138,7 @@
 							<div class="fbLcNrSwiperSzIco"></div>
 						</div>
 						<div class="fbLcNrSwiperNr">
-							<div class="fbLcNrSwiperNr_1"><img src="/static/images/store/ico5.png" alt="" /></div>
+							<div class="fbLcNrSwiperNr_1"><img src="../../static/images/store/ico5.png" alt="" /></div>
 							<div class="f32 bolder fbLcNrSwiperNr_2">Become a Developer</div>
 							<div class="f20 bolder fbLcNrSwiperNr_3">Sign up to obtain your developer status</div>
 						</div>
@@ -148,7 +148,7 @@
 							<div class="fbLcNrSwiperSzIco"></div>
 						</div>
 						<div class="fbLcNrSwiperNr">
-							<div class="fbLcNrSwiperNr_1"><img src="/static/images/store/ico6.png" alt="" /></div>
+							<div class="fbLcNrSwiperNr_1"><img src="../../static/images/store/ico6.png" alt="" /></div>
 							<div class="f32 bolder fbLcNrSwiperNr_2">Develop Your App</div>
 							<div class="f20 bolder fbLcNrSwiperNr_3">Use the SDKs to build your app</div>
 						</div>
@@ -158,7 +158,7 @@
 							<div class="fbLcNrSwiperSzIco"></div>
 						</div>
 						<div class="fbLcNrSwiperNr">
-							<div class="fbLcNrSwiperNr_1"><img src="/static/images/store/ico7.png" alt="" /></div>
+							<div class="fbLcNrSwiperNr_1"><img src="../../static/images/store/ico7.png" alt="" /></div>
 							<div class="f32 bolder fbLcNrSwiperNr_2">Submit Your App</div>
 							<div class="f20 bolder fbLcNrSwiperNr_3">Provide detailed app information and upload your build</div>
 						</div>
@@ -168,7 +168,7 @@
 							<div class="fbLcNrSwiperSzIco"></div>
 						</div>
 						<div class="fbLcNrSwiperNr">
-							<div class="fbLcNrSwiperNr_1"><img src="/static/images/store/ico8.png" alt="" /></div>
+							<div class="fbLcNrSwiperNr_1"><img src="../../static/images/store/ico8.png" alt="" /></div>
 							<div class="f32 bolder fbLcNrSwiperNr_2">App Review</div>
 							<div class="f20 bolder fbLcNrSwiperNr_3">Our operation team will review your app</div>
 						</div>
@@ -178,7 +178,7 @@
 							<div class="fbLcNrSwiperSzIco"></div>
 						</div>
 						<div class="fbLcNrSwiperNr">
-							<div class="fbLcNrSwiperNr_1"><img src="/static/images/store/ico9.png" alt="" /></div>
+							<div class="fbLcNrSwiperNr_1"><img src="../../static/images/store/ico9.png" alt="" /></div>
 							<div class="f32 bolder fbLcNrSwiperNr_2">Release Your App</div>
 							<div class="f20 bolder fbLcNrSwiperNr_3">Release your app on the app store</div>
 						</div>
@@ -190,16 +190,16 @@
 			<div class="f52 bolder kfMxNr_1 wow fadeInUp">Create Play For Dreams Apps</div>
 			<div class="kfMxNrCon wow fadeInUp">
 				<div class="kfMxNrConMk">
-					<img class="img100" src="/static/images/store/img12.png" alt="" />
-					<div class="kfMxNrConMkPos"><img src="/static/images/store/ico10.png" alt="" /></div>
+					<img class="img100" src="../../static/images/store/img12.png" alt="" />
+					<div class="kfMxNrConMkPos"><img src="../../static/images/store/ico10.png" alt="" /></div>
 				</div>
 				<div class="kfMxNrConMk">
-					<img class="img100" src="/static/images/store/img12.png" alt="" />
-					<div class="kfMxNrConMkPos"><img src="/static/images/store/ico11.png" alt="" /></div>
+					<img class="img100" src="../../static/images/store/img12.png" alt="" />
+					<div class="kfMxNrConMkPos"><img src="../../static/images/store/ico11.png" alt="" /></div>
 				</div>
 				<div class="kfMxNrConMk">
-					<img class="img100" src="/static/images/store/img12.png" alt="" />
-					<div class="kfMxNrConMkPos"><img src="/static/images/store/ico12.png" alt="" /></div>
+					<img class="img100" src="../../static/images/store/img12.png" alt="" />
+					<div class="kfMxNrConMkPos"><img src="../../static/images/store/ico12.png" alt="" /></div>
 				</div>
 			</div>
 		</div>
@@ -281,6 +281,37 @@
 				})
 
 			})
+		},
+		methods:{
+			environment(){
+				let currentDomain = window.location.hostname;
+				if(currentDomain.includes('apiuat')){
+				return 'uat'
+				}else if(currentDomain.includes('localhost') || currentDomain.includes('172.18.0.67') ||  currentDomain.includes('apitest')){
+				return 'dev'
+				}else{
+				return 'pro'
+				}
+			},
+			joinus(){
+				let envi = this.environment()
+				let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/?iscn=false'
+				let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/?iscn=false'
+				let pro = 'https://developer.pfdm.cn/?iscn=false'
+				if(envi == 'dev'){
+				window.open(dev)
+				}else if(envi == 'uat'){
+				window.open(uat)
+				}else{
+				window.open(pro)
+				}
+			}
 		}
 	}
 </script>
+
+<style scoped>
+.allNyBan{
+  background: url('../../static/images/dev.jpg');
+}
+</style>

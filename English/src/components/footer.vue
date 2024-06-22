@@ -5,7 +5,7 @@
 			<div class="nyFooterTop">
 				<div class="nyFooterTopNr">
 					<div class="nyFooterTopLeft">
-						<div class="nyFooterTopLeft_1"><img src="static/images/logo111.png" alt="" /></div>
+						<div class="nyFooterTopLeft_1"><img src="../../static/images/logo111.png" alt="" /></div>
 						<div class="nyFooterTopLeft_2">Feedback<br>
 							021-57098200
 						</div>
@@ -13,13 +13,13 @@
 							<div class="nyFooterTopLeft_3">Follow Us</div>
 							<div class="nyFooterTopLeft_4">
 								<div class="nyFooterTopLeft_4Mk">
-									<img src="/static/images/wx1.png" alt="" />
+									<img src="../../static/images/wx1.png" alt="" />
 									<div class="nyFooterTopLeft_4MkPos">
-										<img src="/static/images/wxewm.png" alt="" />
+										<img src="../../static/images/wxewm.png" alt="" />
 									</div>
 								</div>
 								<div class="nyFooterTopLeft_4Mk">
-									<a href="https://weibo.com/u/7740187132" target="_blank"><img src="/static/images/wb1.png"
+									<a href="https://weibo.com/u/7740187132" target="_blank"><img src="../../static/images/wb1.png"
 											alt="" /></a>
 								</div>
 							</div>
