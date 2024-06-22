@@ -41,10 +41,10 @@
     <div class="wapTopBj">
       <ul class="topWapNrConLb">
         <li><a href="#">首页</a></li>
-        <li><a href="#">开发</a></li>
-        <li><a href="#">分发</a></li>
-        <li><a href="#">支持</a></li>
-        <li><a href="#">社区</a></li>
+        <li @click="goPath(0)"><a href="#">开发</a></li>
+        <li @click="goPath(1)"><a href="#">分发</a></li>
+        <li @click="goPath(2)"><a href="#">支持</a></li>
+        <li @click="goPath(3)"><a href="#">社区</a></li>
       </ul>
     </div>
     <!-- 头部 stop -->
@@ -124,8 +124,8 @@
         // 中文跳转
         // flag 0 开发 1 分发  2 支持  3 社区
         if(flag == 0){
-          let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/'
-          let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/'
+          let dev = 'http://172.18.0.67:9529/#/?iscn=true'
+          let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/?iscn=true'
           let pro = 'https://developer.pfdm.cn/#/'
           if(this.envi == 'dev'){
             window.open(dev)

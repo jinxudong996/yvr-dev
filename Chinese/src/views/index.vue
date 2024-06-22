@@ -293,9 +293,9 @@
       },
       joinus(){
         let envi = this.environment()
-        let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/'
-        let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/'
-        let pro = 'https://developer.pfdm.cn/'
+        let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/?iscn=true'
+        let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/?iscn=true'
+        let pro = 'https://developer.pfdm.cn/?iscn=true'
         if(envi == 'dev'){
           window.open(dev)
         }else if(envi == 'uat'){

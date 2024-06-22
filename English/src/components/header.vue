@@ -53,11 +53,10 @@
 		<div class="wapTopBj">
 			<ul class="topWapNrConLb">
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Develop</a></li>
-				<li><a href="#">Distribute</a></li>
-				<li><a href="#">Support</a></li>
-				<li><a href="#">Community</a></li>
-				<li><a href="#">Become a Developer</a></li>
+				<li @click="goPath(0)"><a href="#">Develop</a></li>
+				<li @click="goPath(1)"><a href="#">Distribute</a></li>
+				<li @click="goPath(2)"><a href="#">Support</a></li>
+				<li @click="goPath(3)"><a href="#">Community</a></li>
 			</ul>
 		</div>
 		<!-- 头部 stop -->
@@ -137,7 +136,7 @@
         // flag 0 开发 1 分发  2 支持  3 社区
         if(flag == 0){
           let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/?iscn=false'
-		  let dev1 = 'http://172.18.0.67:9529/#/?iscn=false'
+		      let dev1 = 'http://172.18.0.67:9529/#/?iscn=false'
           let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/?iscn=false'
           let pro = 'https://developer.pfdm.cn/#/?iscn=false'
           if(this.envi == 'dev'){
