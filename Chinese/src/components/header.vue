@@ -14,6 +14,7 @@
           </ul>
         </div>
         <div class="allTopConRig">
+          <div class="allTopConRig_2"><a href="http://pfdm1.ucantech.net/en/#/index" target="_blank"><img src="static/images/en.png" alt="" /> </a></div>
           <div class="allTopConRig_1 manageimg" @click="isDev()" v-show="loginStatus == 2"><div class="img"></div></div>
           <div class="allTopConRig_1" @click="becommeDev()" v-show="loginStatus == 1"><a href="#">成为开发者</a></div>
           <div class="allTopConRig_1" @click="goLogin()" v-show="loginStatus == 0"><a href="#">登录</a></div>
@@ -26,6 +27,7 @@
     <div class="wapTop">
       <div class="wapTopLogo"><a href="#"><img src="../../static/images/logo111.png?ac=111"></a></div>
       <div class="allTopConRig">
+        <div class="allTopConRig_2"><a href="http://pfdm1.ucantech.net/en/#/index" target="_blank"><img src="static/images/en.png" alt="" /> </a></div>
         <div class="allTopConRig_1 manageimg" @click="isDev()" v-show="loginStatus == 2"><div class="img"></div></div>
         <div class="allTopConRig_1" @click="becommeDev()" v-show="loginStatus == 1"><a href="#">成为开发者</a></div>
         <div class="allTopConRig_1" @click="goLogin()" v-show="loginStatus == 0"><a href="#">登录</a></div>
@@ -77,7 +79,7 @@
           $(this).parent().next().slideUp();
         }
       })
-     
+
       this.loginStatus = this.getQueryParam('loginStatus') || 0
       this.envi = this.environment()
     },
@@ -109,7 +111,7 @@
         }else{
           window.location.href = pro
         }
-        
+
       },
       getQueryParam( param_name) {
         let url = window.location.href
@@ -139,7 +141,7 @@
           let dev = 'https://apitest.yvrdream.com/yvrdoc/vrcc/Publish/ApplicationLifecycle.html'
           let uat = 'https://apiuat.yvrdream.com/yvrdoc/vrcc/Publish/ApplicationLifecycle.html'
           let pro = 'https://developer.pfdm.cn/yvrdoc/vrcc/Publish/ApplicationLifecycle.html'
-          
+
           if(this.envi == 'dev'){
             window.open(dev)
           }else if(this.envi == 'uat'){
@@ -191,7 +193,7 @@
         var url = null;
         var userSite = window.navigator.language;
         var isSuper = Number(this.getQueryParam("isSuper"));
-        let username = this.getQueryParam("username"); 
+        let username = this.getQueryParam("username");
         if (userSite === "zh-CN") {
           url = `all_apps?token=${encodeURIComponent(token)}&iscn=0&isSuper=${isSuper}&account=${username}`;
         } else {
@@ -228,7 +230,7 @@
   width: 20px;
   height: 20px;
   display: inline-block;
-  
+
   background: url("../../static/images/login/guanlizhongxin.png");
 }
 .manageimg .img:hover {
