@@ -37,36 +37,36 @@
 					</div>
 					<div class="nyFooterTopRight">
 						<dl>
-							<dt><a href="http://pfdm.ucantech.net:10030/en/#/mr" target="_blank">MR Series</a></dt>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/mr" target="_blank">Play For Dream MR</a></dd>
+							<dt><a href="http://www.pfdm.cn/en/#/mr" target="_blank">MR Series</a></dt>
+							<dd><a href="http://www.pfdm.cn/en/#/mr" target="_blank">Play For Dream MR</a></dd>
 							<dd><a href="https://mall.jd.com/index-1000425743.html" target="_blank">Order Now</a></dd>
 						</dl>
 						<dl>
-							<dt><a href="http://pfdm.ucantech.net:10030/en/#/vr" target="_blank">VR Series</a></dt>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/vr" target="_blank">YVR 2</a></dd>
+							<dt><a href="http://www.pfdm.cn/en/#/vr" target="_blank">VR Series</a></dt>
+							<dd><a href="http://www.pfdm.cn/en/#/vr" target="_blank">YVR 2</a></dd>
 							<dd><a href="https://mall.jd.com/index-1000425743.html" target="_blank">Order Now</a></dd>
 						</dl>
 						<dl>
-							<dt><a href="http://pfdm.ucantech.net:10030/en/#/store" target="_blank">Where to Buy</a></dt>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/store" target="_blank">Shop Online</a></dd>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/store?index=1" target="_blank">Find a Store</a></dd>
+							<dt><a href="http://www.pfdm.cn/en/#/store" target="_blank">Where to Buy</a></dt>
+							<dd><a href="http://www.pfdm.cn/en/#/store" target="_blank">Shop Online</a></dd>
+							<dd><a href="http://www.pfdm.cn/en/#/store?index=1" target="_blank">Find a Store</a></dd>
 						</dl>
 						<dl>
-							<dt><a href="http://pfdm.ucantech.net:10030/en/#/service" target="_blank">Support</a></dt>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/service?index=3" target="_blank">Play For Dream Mobile
+							<dt><a href="http://www.pfdm.cn/en/#/service" target="_blank">Support</a></dt>
+							<dd><a href="http://www.pfdm.cn/en/#/service?index=3" target="_blank">Play For Dream Mobile
 									Assistant</a></dd>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/service?index=1" target="_blank">PCVR Assistant</a></dd>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/service?index=2" target="_blank">Film Stream
+							<dd><a href="http://www.pfdm.cn/en/#/service?index=1" target="_blank">PCVR Assistant</a></dd>
+							<dd><a href="http://www.pfdm.cn/en/#/service?index=2" target="_blank">Film Stream
 									Assistant</a>
 							</dd>
 						</dl>
 						<dl>
-							<dt><a href="http://pfdm.ucantech.net:10030/en/#/about" target="_blank">About Us</a></dt>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/about?index=1" target="_blank">Our Stories</a></dd>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/about?index=2" target="_blank">Milestones</a></dd>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/news" target="_blank">Newsroom</a></dd>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/join" target="_blank">Career</a></dd>
-							<dd><a href="http://pfdm.ucantech.net:10030/en/#/about?index=3" target="_blank">Contact Us</a></dd>
+							<dt><a href="http://www.pfdm.cn/en/#/about" target="_blank">About Us</a></dt>
+							<dd><a href="http://www.pfdm.cn/en/#/about?index=1" target="_blank">Our Stories</a></dd>
+							<dd><a href="http://www.pfdm.cn/en/#/about?index=2" target="_blank">Milestones</a></dd>
+							<dd><a href="http://www.pfdm.cn/en/#/news" target="_blank">Newsroom</a></dd>
+							<dd><a href="http://www.pfdm.cn/en/#/join" target="_blank">Career</a></dd>
+							<dd><a href="http://www.pfdm.cn/en/#/about?index=3" target="_blank">Contact Us</a></dd>
 						</dl>
 					</div>
 				</div>
@@ -75,8 +75,8 @@
 				<div class="nyFooterBot_1">Copyright Play For Dream (Shanghai)Technology Co.,Ltd.All rights reserved.
 				</div>
 				<div class="nyFooterBot_2">
-					<a href="http://pfdm.ucantech.net:10030/en/#/page?index=1" target="_blank">Legal clause</a>
-					<a href="http://pfdm.ucantech.net:10030/en/#/page?index=2" target="_blank">Privacy protection</a>
+					<a href="http://www.pfdm.cn/en/#/page?index=1" target="_blank">Legal clause</a>
+					<a href="http://www.pfdm.cn/en/#/page?index=2" target="_blank">Privacy protection</a>
 				</div>
 			</div>
 		</div>

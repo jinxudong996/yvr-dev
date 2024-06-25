@@ -101,7 +101,7 @@
         let dev = 'http://172.18.0.67:9529/#/login?iscn=true'
         let dev1 = 'https://apitest.yvrdream.com/yvrdvcenter/#/login?iscn=true'
         let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/login?iscn=true'
-        let pro = 'https://developer.yvr.cn/#/login?iscn=true'
+        let pro = 'https://developer.yvr.cn/login?iscn=true'
         if(this.envi == 'dev'){
           window.location.href = dev
         }else if(this.envi == 'uat'){
@@ -126,7 +126,7 @@
         if(flag == 0){
           let dev = 'http://172.18.0.67:9529/#/?iscn=true'
           let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/?iscn=true'
-          let pro = 'https://developer.pfdm.cn/#/'
+          let pro = 'https://developer.yvr.cn/#/?iscn=true'
           if(this.envi == 'dev'){
             window.open(dev)
           }else if(this.envi == 'uat'){
@@ -175,9 +175,9 @@
         }
       },
       becommeDev(){
-        let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/apply'
-        let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/apply'
-        let pro = 'https://developer.yvr.cn/#/apply'
+        let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/apply?iscn=true'
+        let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/apply?iscn=true'
+        let pro = 'https://developer.yvr.cn/#/apply?iscn=true'
         if(this.envi == 'dev'){
           window.open(dev)
         }else if(this.envi == 'uat'){

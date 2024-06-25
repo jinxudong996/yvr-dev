@@ -138,7 +138,7 @@
           let dev = 'https://apitest.yvrdream.com/yvrdvcenter/#/?iscn=false'
 		      let dev1 = 'http://172.18.0.67:9529/#/?iscn=false'
           let uat = 'https://apiuat.yvrdream.com/yvrdvcenter/#/?iscn=false'
-          let pro = 'https://developer.pfdm.cn/#/?iscn=false'
+          let pro = 'https://developer.yvr.cn/#/?iscn=false'
           if(this.envi == 'dev'){
             window.open(uat)
           }else if(this.envi == 'uat'){
