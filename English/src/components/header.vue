@@ -14,6 +14,7 @@
 					</ul>
 				</div>
 				<div class="allTopConRig">
+          <div class="allTopConRig_2"><a href="http://pfdm1.ucantech.net/" target="_blank"><img src="static/images/cn.png" alt="" /> </a></div>
 					<div class="allTopConRig_1 manageimg" @click="isDev()" v-show="loginStatus == 2"><div class="img"></div></div>
 					<div class="allTopConRig_1" @click="becommeDev()" v-show="loginStatus == 1"><a href="#">Become a Developer</a></div>
 					<div class="allTopConRig_1" @click="goLogin()" v-show="loginStatus == 0"><a href="#">Login</a></div>
@@ -38,6 +39,7 @@
 		<div class="wapTop">
 			<div class="wapTopLogo"><a href="#"><img src="../../static/images/logo111.png?ac=111"></a></div>
 			<div class="allTopConRig">
+        <div class="allTopConRig_2"><a href="http://pfdm1.ucantech.net/" target="_blank"><img src="static/images/cn.png" alt="" /> </a></div>
 				<div class="allTopConRig_1 manageimg" @click="isDev()" v-show="loginStatus == 2"><div class="img"></div></div>
 				<div class="allTopConRig_1" @click="becommeDev()" v-show="loginStatus == 1"><a href="#">Become a Developer</a></div>
 				<div class="allTopConRig_1" @click="goLogin()" v-show="loginStatus == 0"><a href="#">Login</a></div>
@@ -120,7 +122,7 @@
         }else{
           window.location.href = pro
         }
-        
+
       },
       getQueryParam( param_name) {
         let url = window.location.href
@@ -151,7 +153,7 @@
           let dev = 'https://apitest.yvrdream.com/yvrdoc/vrce/Publish/ApplicationLifecycle.html'
           let uat = 'https://apiuat.yvrdream.com/yvrdoc/vrce/Publish/ApplicationLifecycle.html'
           let pro = 'https://developer.pfdm.cn/yvrdoc/vrce/Publish/ApplicationLifecycle.html'
-          
+
           if(this.envi == 'dev'){
             window.open(dev)
           }else if(this.envi == 'uat'){
@@ -203,7 +205,7 @@
         var url = null;
         var userSite = window.navigator.language;
         var isSuper = Number(this.getQueryParam("isSuper"));
-        let username = this.getQueryParam("username"); 
+        let username = this.getQueryParam("username");
         url = `all_apps?token=${encodeURIComponent(token)}&iscn=1&isSuper=${isSuper}&account=${username}`;
         // openPath("yvrdevUrl", url);
         let local = 'http://172.18.0.67:8088/'
@@ -236,7 +238,7 @@
   width: 20px;
   height: 20px;
   display: inline-block;
-  
+
   background: url("../../static/images/login/guanlizhongxin.png");
 }
 .manageimg .img:hover {
